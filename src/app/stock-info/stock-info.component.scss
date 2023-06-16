@@ -1,0 +1,35 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.input {
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 22.5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.search-btn {
+  width: 150px;
+  height: 30px;
+  font-size: 1rem;
+  background-color: lightblue;
+  border-radius: 15px;
+}
